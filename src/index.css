@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --background: #F6F8FC;
+  --darker-background: #EEEEEE;
+  --foreground: #FFFFFF;
+  --highlight: #FF5350;
+  --primary-text: #10222F;
+  --secondary-text: #8F9396;
+  --normal-background: #CCCCA7;
+  --normal-text: #494942;
+  --grass-background: #A8F083;
+  --grass-text: #155406;
+  --ground-background: #FFCD83;
+  --ground-text: #4C4103;
+  --fire-background: #FF994D;
+  --fire-text: #5D1000;
+  --fighting-background: #DF7763;
+  --fighting-text: #5D1000;
+  --water-background: #8DB3FF;
+  --water-text: #2D446C;
+  --steel-background: #AAB3CD;
+  --steel-text: #3B3D45;
+  --flying-background: #C6B3FF;
+  --flying-text: #473A6F;
+  --poison-background: #C979C9;
+  --poison-text: #550E55;
+  --electric-background: #FFE76E;
+  --electric-text: #605000;
+  --psychic-background: #FF8FB0;
+  --psychic-text: #A70E3B;
+  --rock-background: #C9BE78;
+  --rock-text: #4D4515;
+  --ice-background: #C7F6F6;
+  --ice-text: #1B7272;
+  --bug-background: #BCD156;
+  --bug-text: #485603;
+  --dragon-background: #9d75FF;
+  --dragon-text: #28115F;
+  --ghost-background: #B4A1CE;
+  --ghost-text: #4A3F58;
+  --dark-background: #7D7067;
+  --dark-text: #231E1B;
+  --fairy-background: #FFCCD7;
+  --fairy-text: #AD1A3A;
+  --stat-hp: #DF2140;
+  --stat-atk: #FF994D;
+  --stat-def: #FEDC52;
+  --stat-SpA: #85DDFF;
+  --stat-SpD: #A8EF8E;
+  --stat-spd: #FB94A8;
+  --stat-tot: #7195DC;
+  --stat-tot-background: #91AEF4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
