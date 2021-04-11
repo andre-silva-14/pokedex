@@ -51,13 +51,18 @@
   --stat-spd: #FB94A8;
   --stat-tot: #7195DC;
   --stat-tot-background: #91AEF4;
+  --box-shadow: 6px 13px 18px 3px rgba(238, 238, 238, 0.6);
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+input {
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }

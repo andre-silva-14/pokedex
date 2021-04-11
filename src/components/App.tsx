@@ -1,10 +1,10 @@
 import SearchBox from './SearchBox';
 
-import './App.css';
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <SearchBox/>
     </div>
   );
